@@ -30,10 +30,6 @@
     text-decoration:none;
     }
 
-    div.col-sm-4{
-    height: 500px;
-    }
-
     div.search{
     border: 2px solid;
     border-radius: 25px;
@@ -43,10 +39,16 @@
     padding-top: 25px;
     }
 
-    @media screen and (max-width: 768px) {
-    ul.list-group{visibility: hidden; display:none;}
-    h3.list-group{visibility: hidden; display:none;}
-    div.input-group{padding-bottom: 25px;}
+    @media screen and (min-width: 768px) {
+    div.input-group {padding: 0px 0px 25px 0px;}
+    }
+
+    @media screen and (max-width: 1200px) {
+    div.input-group {padding: 0px 0px 25px 0px;}
+    }
+
+    @media screen and (max-width: 500px) {
+    div.input-group {padding: 0px 0px 25px 0px;}
     }
     
     /* phones 320x 480px y vc ; tablets 768 x 1024 y vc ; desktops 1680 x 1050
