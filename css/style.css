@@ -47,8 +47,8 @@
     ul.list-group{visibility: hidden; display:none;}
     h3.list-group{visibility: hidden; display:none;}
     div.input-group{padding-bottom: 25px;}
-    div.col-md-4 {width: 32.9%; display: inline-block; position: block;}
     }
+    
     /* phones 320x 480px y vc ; tablets 768 x 1024 y vc ; desktops 1680 x 1050
     max-width: 100%;
   overflow: hidden;
